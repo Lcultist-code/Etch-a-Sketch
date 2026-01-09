@@ -1,3 +1,15 @@
+//Button Dimensions
+let gridim;
+const btn = document.querySelector("#grid");
+btn.addEventListener("click", () => {
+    const input = prompt("Please type in the grid dimensions");
+    valueInput = parseInt(input);
+    gridim = valueInput;
+
+});
+
+
+
 
 //Acessing main div
 
