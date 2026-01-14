@@ -1,17 +1,13 @@
 .flexgrid {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-
+    width: 960px;
+    height: 960px;
+    margin: 20px auto;
 }
 
 .flex-item {
-    flex: 0 0 calc(100%/16);
-    aspect-ratio: 1/1;
-
     background-color: lightgreen;
     border: 1px solid darkgreen;
     box-sizing: border-box;
-
-
 }
